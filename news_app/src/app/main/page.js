@@ -11,6 +11,8 @@ const Main = async () => {
     }
     let news = await getNews()
 
+
+
     return (
         <div className='w-[85%] m-auto bg-gray-100 p-6 shadow-2xl rounded-md'>
             <div className='shadow-2xl m-2 p-2  space-x-5 mt-5'>
